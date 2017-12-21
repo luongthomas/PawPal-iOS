@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24041B8B1FEB993F00E58B07 /* PublicArt.json in Resources */ = {isa = PBXBuildFile; fileRef = 24041B8A1FEB993F00E58B07 /* PublicArt.json */; };
+		24041B8D1FEB99A900E58B07 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24041B8C1FEB99A900E58B07 /* Artwork.swift */; };
+		24476E451FBC1DB200AC42CC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24476E481FBC1DB200AC42CC /* Alamofire.framework */; };
+		24476E461FBC1DB200AC42CC /* LGButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24476E491FBC1DB200AC42CC /* LGButton.framework */; };
+		24476E471FBC1DB200AC42CC /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24476E4A1FBC1DB200AC42CC /* SwiftyJSON.framework */; };
+		24476E5D1FBD6C4200AC42CC /* Hero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24476E521FBC233500AC42CC /* Hero.framework */; };
+		24476E5E1FBD6C4200AC42CC /* Hero.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 24476E521FBC233500AC42CC /* Hero.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		24476E5F1FBD6C4200AC42CC /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24476E511FBC233500AC42CC /* SnapKit.framework */; };
+		24476E601FBD6C4200AC42CC /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 24476E511FBC233500AC42CC /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		24476E611FBD6C4200AC42CC /* SwiftGif.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24476E4F1FBC1F9900AC42CC /* SwiftGif.framework */; };
+		24476E621FBD6C4200AC42CC /* SwiftGif.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 24476E4F1FBC1F9900AC42CC /* SwiftGif.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		24476E651FBD72E000AC42CC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24476E641FBD72E000AC42CC /* MapKit.framework */; };
+		24DB66581FBC085200377615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DB66571FBC085200377615 /* AppDelegate.swift */; };
+		24DB665A1FBC085200377615 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DB66591FBC085200377615 /* ViewController.swift */; };
+		24DB665D1FBC085200377615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DB665B1FBC085200377615 /* Main.storyboard */; };
+		24DB665F1FBC085200377615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DB665E1FBC085200377615 /* Assets.xcassets */; };
+		24DB66621FBC085200377615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DB66601FBC085200377615 /* LaunchScreen.storyboard */; };
+		24DB666D1FBC085300377615 /* PawPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DB666C1FBC085300377615 /* PawPalTests.swift */; };
+		24DB66781FBC085300377615 /* PawPalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DB66771FBC085300377615 /* PawPalUITests.swift */; };
+		F63214103B11A3DE18828AE7 /* Pods_PawPal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653722FF724CCC22764D52F0 /* Pods_PawPal.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24DB66691FBC085300377615 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24DB664C1FBC085200377615 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24DB66531FBC085200377615;
+			remoteInfo = PawPal;
+		};
+		24DB66741FBC085300377615 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24DB664C1FBC085200377615 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24DB66531FBC085200377615;
+			remoteInfo = PawPal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		24476E631FBD6C4200AC42CC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				24476E5E1FBD6C4200AC42CC /* Hero.framework in Embed Frameworks */,
+				24476E601FBD6C4200AC42CC /* SnapKit.framework in Embed Frameworks */,
+				24476E621FBD6C4200AC42CC /* SwiftGif.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		022624A13F1F78E43B370A02 /* Pods-PawPal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PawPal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PawPal/Pods-PawPal.debug.xcconfig"; sourceTree = "<group>"; };
+		24041B8A1FEB993F00E58B07 /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PublicArt.json; sourceTree = "<group>"; };
+		24041B8C1FEB99A900E58B07 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		24476E481FBC1DB200AC42CC /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24476E491FBC1DB200AC42CC /* LGButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LGButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24476E4A1FBC1DB200AC42CC /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24476E4B1FBC1DC900AC42CC /* Hero.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hero.framework; path = Carthage/Build/iOS/Hero.framework; sourceTree = "<group>"; };
+		24476E4D1FBC1F9200AC42CC /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		24476E4F1FBC1F9900AC42CC /* SwiftGif.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftGif.framework; path = Carthage/Build/iOS/SwiftGif.framework; sourceTree = "<group>"; };
+		24476E511FBC233500AC42CC /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		24476E521FBC233500AC42CC /* Hero.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hero.framework; path = Carthage/Build/iOS/Hero.framework; sourceTree = "<group>"; };
+		24476E641FBD72E000AC42CC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		24DB66541FBC085200377615 /* PawPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PawPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DB66571FBC085200377615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24DB66591FBC085200377615 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24DB665C1FBC085200377615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24DB665E1FBC085200377615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24DB66611FBC085200377615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24DB66631FBC085200377615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24DB66681FBC085300377615 /* PawPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PawPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DB666C1FBC085300377615 /* PawPalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawPalTests.swift; sourceTree = "<group>"; };
+		24DB666E1FBC085300377615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24DB66731FBC085300377615 /* PawPalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PawPalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DB66771FBC085300377615 /* PawPalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawPalUITests.swift; sourceTree = "<group>"; };
+		24DB66791FBC085300377615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A639D8F64FFCF4BE4EA7A1E /* Pods-PawPal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PawPal.release.xcconfig"; path = "Pods/Target Support Files/Pods-PawPal/Pods-PawPal.release.xcconfig"; sourceTree = "<group>"; };
+		653722FF724CCC22764D52F0 /* Pods_PawPal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PawPal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24DB66511FBC085200377615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24476E5D1FBD6C4200AC42CC /* Hero.framework in Frameworks */,
+				24476E451FBC1DB200AC42CC /* Alamofire.framework in Frameworks */,
+				24476E651FBD72E000AC42CC /* MapKit.framework in Frameworks */,
+				24476E461FBC1DB200AC42CC /* LGButton.framework in Frameworks */,
+				24476E5F1FBD6C4200AC42CC /* SnapKit.framework in Frameworks */,
+				24476E471FBC1DB200AC42CC /* SwiftyJSON.framework in Frameworks */,
+				24476E611FBD6C4200AC42CC /* SwiftGif.framework in Frameworks */,
+				F63214103B11A3DE18828AE7 /* Pods_PawPal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DB66651FBC085300377615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DB66701FBC085300377615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13CB8788CA167949AEAEC7C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				022624A13F1F78E43B370A02 /* Pods-PawPal.debug.xcconfig */,
+				3A639D8F64FFCF4BE4EA7A1E /* Pods-PawPal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		24DB664B1FBC085200377615 = {
+			isa = PBXGroup;
+			children = (
+				24DB66561FBC085200377615 /* PawPal */,
+				24DB666B1FBC085300377615 /* PawPalTests */,
+				24DB66761FBC085300377615 /* PawPalUITests */,
+				24DB66551FBC085200377615 /* Products */,
+				13CB8788CA167949AEAEC7C1 /* Pods */,
+				ADB69DC8D6600B930CF99FBA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		24DB66551FBC085200377615 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24DB66541FBC085200377615 /* PawPal.app */,
+				24DB66681FBC085300377615 /* PawPalTests.xctest */,
+				24DB66731FBC085300377615 /* PawPalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24DB66561FBC085200377615 /* PawPal */ = {
+			isa = PBXGroup;
+			children = (
+				24DB66571FBC085200377615 /* AppDelegate.swift */,
+				24DB66591FBC085200377615 /* ViewController.swift */,
+				24041B8C1FEB99A900E58B07 /* Artwork.swift */,
+				24041B8A1FEB993F00E58B07 /* PublicArt.json */,
+				24DB665B1FBC085200377615 /* Main.storyboard */,
+				24DB665E1FBC085200377615 /* Assets.xcassets */,
+				24DB66601FBC085200377615 /* LaunchScreen.storyboard */,
+				24DB66631FBC085200377615 /* Info.plist */,
+			);
+			path = PawPal;
+			sourceTree = "<group>";
+		};
+		24DB666B1FBC085300377615 /* PawPalTests */ = {
+			isa = PBXGroup;
+			children = (
+				24DB666C1FBC085300377615 /* PawPalTests.swift */,
+				24DB666E1FBC085300377615 /* Info.plist */,
+			);
+			path = PawPalTests;
+			sourceTree = "<group>";
+		};
+		24DB66761FBC085300377615 /* PawPalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24DB66771FBC085300377615 /* PawPalUITests.swift */,
+				24DB66791FBC085300377615 /* Info.plist */,
+			);
+			path = PawPalUITests;
+			sourceTree = "<group>";
+		};
+		ADB69DC8D6600B930CF99FBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24476E641FBD72E000AC42CC /* MapKit.framework */,
+				24476E521FBC233500AC42CC /* Hero.framework */,
+				24476E511FBC233500AC42CC /* SnapKit.framework */,
+				24476E4F1FBC1F9900AC42CC /* SwiftGif.framework */,
+				24476E4D1FBC1F9200AC42CC /* SnapKit.framework */,
+				24476E4B1FBC1DC900AC42CC /* Hero.framework */,
+				24476E481FBC1DB200AC42CC /* Alamofire.framework */,
+				24476E491FBC1DB200AC42CC /* LGButton.framework */,
+				24476E4A1FBC1DB200AC42CC /* SwiftyJSON.framework */,
+				653722FF724CCC22764D52F0 /* Pods_PawPal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24DB66531FBC085200377615 /* PawPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24DB667C1FBC085300377615 /* Build configuration list for PBXNativeTarget "PawPal" */;
+			buildPhases = (
+				CAD49DE656E887AEA0CEF028 /* [CP] Check Pods Manifest.lock */,
+				24DB66501FBC085200377615 /* Sources */,
+				24DB66511FBC085200377615 /* Frameworks */,
+				24DB66521FBC085200377615 /* Resources */,
+				78D92A9EA85402FFC1250404 /* [CP] Embed Pods Frameworks */,
+				993980E923F25EA56136A3AF /* [CP] Copy Pods Resources */,
+				24476E631FBD6C4200AC42CC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PawPal;
+			productName = PawPal;
+			productReference = 24DB66541FBC085200377615 /* PawPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24DB66671FBC085300377615 /* PawPalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24DB667F1FBC085300377615 /* Build configuration list for PBXNativeTarget "PawPalTests" */;
+			buildPhases = (
+				24DB66641FBC085300377615 /* Sources */,
+				24DB66651FBC085300377615 /* Frameworks */,
+				24DB66661FBC085300377615 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24DB666A1FBC085300377615 /* PBXTargetDependency */,
+			);
+			name = PawPalTests;
+			productName = PawPalTests;
+			productReference = 24DB66681FBC085300377615 /* PawPalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24DB66721FBC085300377615 /* PawPalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24DB66821FBC085300377615 /* Build configuration list for PBXNativeTarget "PawPalUITests" */;
+			buildPhases = (
+				24DB666F1FBC085300377615 /* Sources */,
+				24DB66701FBC085300377615 /* Frameworks */,
+				24DB66711FBC085300377615 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24DB66751FBC085300377615 /* PBXTargetDependency */,
+			);
+			name = PawPalUITests;
+			productName = PawPalUITests;
+			productReference = 24DB66731FBC085300377615 /* PawPalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24DB664C1FBC085200377615 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = PawPal;
+				TargetAttributes = {
+					24DB66531FBC085200377615 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					24DB66671FBC085300377615 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 24DB66531FBC085200377615;
+					};
+					24DB66721FBC085300377615 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 24DB66531FBC085200377615;
+					};
+				};
+			};
+			buildConfigurationList = 24DB664F1FBC085200377615 /* Build configuration list for PBXProject "PawPal" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24DB664B1FBC085200377615;
+			productRefGroup = 24DB66551FBC085200377615 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24DB66531FBC085200377615 /* PawPal */,
+				24DB66671FBC085300377615 /* PawPalTests */,
+				24DB66721FBC085300377615 /* PawPalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24DB66521FBC085200377615 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24041B8B1FEB993F00E58B07 /* PublicArt.json in Resources */,
+				24DB66621FBC085200377615 /* LaunchScreen.storyboard in Resources */,
+				24DB665F1FBC085200377615 /* Assets.xcassets in Resources */,
+				24DB665D1FBC085200377615 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DB66661FBC085300377615 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DB66711FBC085300377615 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78D92A9EA85402FFC1250404 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PawPal/Pods-PawPal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/LGButton/LGButton.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PawPal/Pods-PawPal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		993980E923F25EA56136A3AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PawPal/Pods-PawPal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAD49DE656E887AEA0CEF028 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PawPal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24DB66501FBC085200377615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DB665A1FBC085200377615 /* ViewController.swift in Sources */,
+				24041B8D1FEB99A900E58B07 /* Artwork.swift in Sources */,
+				24DB66581FBC085200377615 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DB66641FBC085300377615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DB666D1FBC085300377615 /* PawPalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DB666F1FBC085300377615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DB66781FBC085300377615 /* PawPalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24DB666A1FBC085300377615 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24DB66531FBC085200377615 /* PawPal */;
+			targetProxy = 24DB66691FBC085300377615 /* PBXContainerItemProxy */;
+		};
+		24DB66751FBC085300377615 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24DB66531FBC085200377615 /* PawPal */;
+			targetProxy = 24DB66741FBC085300377615 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24DB665B1FBC085200377615 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24DB665C1FBC085200377615 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24DB66601FBC085200377615 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24DB66611FBC085200377615 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24DB667A1FBC085300377615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24DB667B1FBC085300377615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24DB667D1FBC085300377615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 022624A13F1F78E43B370A02 /* Pods-PawPal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4588H2WW4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = PawPal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PawPal.com.PawPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24DB667E1FBC085300377615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A639D8F64FFCF4BE4EA7A1E /* Pods-PawPal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4588H2WW4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = PawPal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PawPal.com.PawPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24DB66801FBC085300377615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4588H2WW4;
+				INFOPLIST_FILE = PawPalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PawPal.com.PawPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PawPal.app/PawPal";
+			};
+			name = Debug;
+		};
+		24DB66811FBC085300377615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4588H2WW4;
+				INFOPLIST_FILE = PawPalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PawPal.com.PawPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PawPal.app/PawPal";
+			};
+			name = Release;
+		};
+		24DB66831FBC085300377615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4588H2WW4;
+				INFOPLIST_FILE = PawPalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PawPal.com.PawPalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PawPal;
+			};
+			name = Debug;
+		};
+		24DB66841FBC085300377615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4588H2WW4;
+				INFOPLIST_FILE = PawPalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PawPal.com.PawPalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PawPal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24DB664F1FBC085200377615 /* Build configuration list for PBXProject "PawPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DB667A1FBC085300377615 /* Debug */,
+				24DB667B1FBC085300377615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24DB667C1FBC085300377615 /* Build configuration list for PBXNativeTarget "PawPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DB667D1FBC085300377615 /* Debug */,
+				24DB667E1FBC085300377615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24DB667F1FBC085300377615 /* Build configuration list for PBXNativeTarget "PawPalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DB66801FBC085300377615 /* Debug */,
+				24DB66811FBC085300377615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24DB66821FBC085300377615 /* Build configuration list for PBXNativeTarget "PawPalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DB66831FBC085300377615 /* Debug */,
+				24DB66841FBC085300377615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24DB664C1FBC085200377615 /* Project object */;
+}
