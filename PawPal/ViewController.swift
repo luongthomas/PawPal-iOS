@@ -103,6 +103,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        mapView.delegate = self
         
         let initialLocation = CLLocation(latitude: 21.282778, longitude: -157.829444)
         let regionRadius: CLLocationDistance = 1000
@@ -250,6 +251,34 @@ class ThickSlider: UISlider {
     var height: CGFloat = 13
     override func trackRect(forBounds bounds: CGRect) -> CGRect {
         return CGRect(origin: bounds.origin, size: CGSize(width: bounds.width, height: height))
+    }
+}
+
+
+
+extension ViewController: MKMapViewDelegate {
+    
+    // Gets called for every annotation added to map to return view for each annotation
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        guard let annotation = annotation as? Artwork else { return nil }
+        
+        let identifier = "marker"
+        
+        var view: MKMarkerAnnotationView
+        
+        
+        if let dequeuedView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier) as? MKMarkerAnnotationView {
+            dequeuedView.annotation = annotation
+            view = dequeuedView
+        } else {
+            view = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: identifier)
+            view.canShowCallout = true
+            view.calloutOffset = CGPoint(x: -5, y: 5)
+            view.rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
+        }
+        
+        return view
+        
     }
 }
 
